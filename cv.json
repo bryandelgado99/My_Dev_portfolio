@@ -360,51 +360,129 @@
   "references": [
     {
       "name": "Tiffany Morales",
-      "reference": "Reference…"
+      "reference": "+593 963703294"
     }
   ],
   "projects": [
     {
-      "name": "Personal Portfolio",
-      "isActive": false,
+      "name": "Developer Portfolio",
+      "isActive": true,
       "description": "A personal portfolio website to showcase my projects and skills.",
+      "image": "./projects/portfolio.jpg",
       "highlights": [
-        "Built with React and Tailwind CSS",
-        "Includes a blog and contact form"
+        "Built with Astro and Tailwind CSS.",
+        "Includes a blog and contact form.",
+        "Integrates a dinamic view of projects, skills and certificates."
       ],
-      "url": "https://johndoe.dev",
-      "github": "https://github.com"
+      "url": "https://pauldelgado.vercel.app",
+      "github": "https://github.com/bryandelgado99/My_Dev_portfolio",
+      "skills": [
+        "Astro",
+        "Tailwind"
+      ]
     },
     {
-      "name": "Weather App",
+      "name": "Electrónica Zurita",
       "isActive": true,
-      "description": "A web application that provides weather information for any location.",
+      "description": "A user firendly mobile app to fetch your technical support devices and see the states of them",
+      "image": "./projects/zurita_app.jpg",
       "highlights": [
-        "Built with JavaScript and OpenWeatherMap API",
-        "Responsive design"
+        "Built with Flutter and ExpressJS.",
+        "Integrates the fetch of the devices and their states."
       ],
-      "url": "https://weatherapp.com"
+      "url": "https://play.google.com/store/apps/details?id=com.pauldev.electronica_zurita",
+      "github": "https://github.com/bryandelgado99/Electronica-Zurita--Mobile-App",
+      "skills":[
+        "Flutter",
+        "Node"
+      ]
     },
     {
-      "name": "Task Manager",
-      "isActive": true,
-      "description": "A simple task management app to keep track of daily tasks.",
-      "highlights": [
-        "Built with Node.js and MongoDB",
-        "User authentication and CRUD operations"
-      ],
-      "url": "https://taskmanager.com",
-      "github": "https://github.com"
-    },
-    {
-      "name": "E-commerce Site",
+      "name": "Pin-loy",
       "isActive": false,
-      "description": "An online store built with Next.js and Stripe for payment processing.",
+      "description": "A geolocator and area drawer position to search the location of the user who is using the app.",
+      "image": "./projects/pinlogy.jpeg",
       "highlights": [
-        "Product management and shopping cart functionality",
-        "Secure payment integration"
+        "Built with Flutter and Firebase.",
+        "Manage the Android geolocation services and permissions to get the user location.",
+        "When the admin selects the area, the app will draw the area on the map."
       ],
-      "url": "https://ecommerce.com"
+      "url": "https://github.com/bryandelgado99/Pin-logy/releases/tag/1.0.0",
+      "github": "https://github.com/bryandelgado99/Pin-logy",
+      "skills":[
+        "Flutter",
+        "Firebase"
+      ]
+    },
+    {
+      "name": "ESFOT-Care +",
+      "isActive": false,
+      "description": "A dynamic and cross-platform pharmaceutical management application..",
+      "image": "./projects/care.png",
+      "highlights": [
+        "Built with Java and MySQL.",
+        "Manage the employers and products.",
+        "Generate a PDF bill when the administrator generates reporters.",
+        "Integrates a sell point with PDF Bill generation"
+      ],
+      "url": "",
+      "github": "https://github.com/bryandelgado99/Farmacias-ESFOT-Care",
+      "skills":[
+        "Java",
+        "MySQL"
+      ]
+    },
+    {
+      "name": "PoliVet",
+      "isActive": false,
+      "description": "A veterinay management app to manage the veterinary practices, pets and veterinarians.",
+      "image": "./projects/polivet.png",
+      "highlights": [
+        "Built with React and ExpressJS.",
+        "Manage pets' medical appointments, their owners, and treatments.",
+        "Add veterinarians and update their profiles."
+      ],
+      "url": "https://polivet.netlify.app/",
+      "github": "https://github.com/bryandelgado99/Polivet-App",
+      "skills":[
+        "React",
+        "Node",
+        "Express"
+      ]
+    },
+    {
+      "name": "Firecamera",
+      "isActive": false,
+      "description": "A simple camera app and gallery to share photos and videos.",
+      "image": "./projects/firecamera.jpg",
+      "highlights": [
+        "Built with Firebase and Flutter.",
+        "Upload photos and videos to Firebase storage."
+      ],
+      "url": "",
+      "github": "https://github.com/bryandelgado99/Firecamera",
+      "skills": [
+        "Firebase",
+        "Flutter"
+      ]
+    },
+    {
+      "name": "FireChat",
+      "isActive": false,
+      "description": "A dynamic chat app with Firebase and Ionic.",
+      "image": "./projects/firechat.png",
+      "highlights": [
+        "Built with Ionic and Firebase.",
+        "Improves a fresh design by Material Web components",
+        "Chat with users using Firebase realtime database.",
+        "Use Firebase Storage to save PDF documents and Geolocation Capacitor to send location."
+      ],
+      "url": "https://firesapp-6074e.web.app/",
+      "github": "https://github.com/bryandelgado99/Ionic-FireChat-IB",
+      "skills": [
+        "Ionic",
+        "Firebase"
+      ]
     }
   ]
 }
