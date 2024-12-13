@@ -1,182 +1,188 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Junior Full Stack Developer",
-    "image": "/me_avatar.jpg",
-    "email": "john.doe@example.com",
-    "phone": "+1 555-555-5555",
-    "url": "https://johndoe.dev",
-    "summary": "Junior Full Stack Developer with a passion for building web applications. Currently seeking opportunities to further develop my skills in a professional setting.",
+    "name": "Paul Delgado",
+    "label": "Junior Mobile Developer",
+    "image": "/me.jpg",
+    "email": "bryand9970@gmail.com",
+    "phone": "+593 987500764",
+    "url": "",
+    "summary": "Junior mobile developer with a great passion for video games, innovation, and practicality. Constantly seeking and receiving feedback to improve my programming skills in a professional environment.",
     "theme": "default",
     "location": {
       "address": "",
-      "postalCode": "10001",
-      "city": "Auckland",
-      "countryCode": "NZ",
-      "region": "New Zealand"
+      "postalCode": "170405",
+      "city": "Quito",
+      "countryCode": "EC",
+      "region": "Ecuador"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "john-doe",
-        "url": "https://linkedin.com/in/john-doe"
-      },
-      {
-        "network": "X",
-        "username": "john-doe",
-        "url": "https://x.com/john-doe"
+        "username": "bryan-delgado-24795520b",
+        "url": "https://www.linkedin.com/in/bryan-delgado-24795520b/"
       },
       {
         "network": "GitHub",
-        "username": "johndoe",
-        "url": "https://github.com/johndoe"
+        "username": "bryandelgado99",
+        "url": "https://github.com/bryandelgado99"
       }
     ]
   },
   "work": [
     {
-      "name": "Tech Startup",
-      "position": "Junior Web Developer",
+      "name": "ESFOT | EPN",
+      "position": "CSM Editor",
       "location_type": "On site",
-      "location": "Auckland, New Zealand",
-      "url": "https://techstartup.com",
-      "startDate": "2024-01-01",
-      "endDate": null,
-      "summary": "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs.",
+      "location": "Quito, Ecuador",
+      "url": "https://esfot.epn.edu.ec/",
+      "startDate": "2023-11-23",
+      "endDate": "2024-04-12",
+      "summary": "Manage the post, stadistics and components for the website of the school with Joomla Software.",
       "highlights": [
-        "Improved website performance by optimizing code"
+        "Improved content and post by CMS editor"
       ],
       "responsibilities": [
-        "Collaborated with senior developers to design and implement web applications using modern JavaScript frameworks.",
-        "Assisted in debugging and optimizing front-end code to ensure smooth user experiences.",
+        "Collaborated with the university personal to design and implement the posts and components of the website.",
         "Participated in code reviews and contributed to improving coding standards within the team."
       ],
-      "achievements": [
-        "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs."
-      ],
       "skills": [
-        "React",
-        "Tailwind",
-        "GitHub"
-      ]
-    },
-    {
-      "name": "Innovative Solutions",
-      "position": "Junior Software Developer",
-      "location_type": "Hybrid",
-      "location": "Wellington, New Zealand",
-      "url": "https://innovativesolutions.com",
-      "startDate": "2022-06-01",
-      "endDate": "2023-06-01",
-      "summary": "Assisting in the development and maintenance of software applications using Python and Django. Collaborating with cross-functional teams to ensure quality and timely delivery of software solutions.",
-      "highlights": [
-        "Contributed to a major project that streamlined internal workflows, improving efficiency by 30%"
-      ],
-      "responsibilities": [
-        "Developed and maintained backend services using Python and Django.",
-        "Worked closely with front-end developers to integrate user-facing elements with server-side logic.",
-        "Participated in daily stand-ups and bi-weekly sprint planning meetings to ensure alignment with project goals."
+        "Joomla",
+        "Illustrator",
+        "Affinity Photo",
+        "Canva"
       ],
       "achievements": [
-        "Successfully implemented a feature that enhanced user authentication, improving security measures."
-      ],
-      "skills": [
-        "Python",
-        "Django",
-        "SQL",
-        "Git"
-      ]
-    },
-    {
-      "name": "Web Agency",
-      "position": "Intern Web Developer",
-      "location_type": "Remote",
-      "location": "Sydney, Australia",
-      "startDate": "2022-06-01",
-      "endDate": "2022-12-01",
-      "summary": "Assisted in developing client websites and applications. Gained hands-on experience with front-end and back-end technologies.",
-      "highlights": [
-        "Completed several client projects successfully"
-      ],
-      "skills": [
-        "HTML",
-        "CSS"
+        "Developed and maintained the website using Joomla CMS."
       ]
     }
   ],
   "volunteer": [
-    {
-      "organization": "Local Coding Club",
-      "position": "Volunteer",
-      "url": "https://codingclub.com/",
-      "startDate": "2021-01-01",
-      "endDate": "2022-01-01",
-      "summary": "Helped organize coding workshops and mentored new members.",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
-    }
+  
   ],
   "education": [
     {
-      "institution": "State University",
-      "url": "https://stateuniversity.edu",
-      "area": "Computer Science",
-      "studyType": "Bachelor",
-      "startDate": "2018-09-01",
-      "endDate": "2022-05-01",
-      "score": "3.8",
+      "institution": "Escuela Politénica Nacional",
+      "url": "https://drive.google.com/file/d/1DmqTHoRfk6rOYvtZJWVbV-FAiQvyUL1M/view?usp=sharing",
+      "area": "High Technological in Software Development",
+      "studyType": "Degree",
+      "startDate": "2020-08",
+      "endDate": "2024-09",
+      "score": "28.7/30",
       "courses": [
-        "CS101 - Introduction to Computer Science",
-        "CS102 - Data Structures"
+        "C++ Programming",
+        "Advance One - English Course"
       ]
     },
     {
-      "institution": "Tech Institute",
-      "url": "https://techinstitute.edu",
-      "area": "Software Engineering",
-      "studyType": "Master",
-      "startDate": "2020-09-01",
-      "endDate": "2022-12-01",
-      "score": "3.9",
+      "institution": "\"Juan Pio Montufar\" High School",
+      "url": "",
+      "area": "High School Education",
+      "studyType": "General Degree",
+      "startDate": "2012-09",
+      "endDate": "2017-07",
+      "score": "8.35/10",
       "courses": [
-        "SE201 - Advanced Software Development",
-        "SE202 - Software Architecture and Design"
-      ]
-    },
-    {
-      "institution": "City College",
-      "url": "https://citycollege.edu",
-      "area": "Information Technology",
-      "studyType": "Associate Degree",
-      "startDate": "2017-01-01",
-      "endDate": "2019-12-01",
-      "score": "3.7",
-      "courses": [
-        "IT101 - Networking Fundamentals",
-        "IT102 - Database Management Systems"
+      
       ]
     }
   ],
   "certificates": [
     {
-      "name": "Full Stack Web Development",
-      "date": "2023-05-01",
-      "issuer": "Online University",
-      "url": "https://onlineuniversity.com/certificates/fullstack"
+      "name": "Flutter Mobile Apps Development",
+      "date": "2024-07",
+      "issuer": "Doméstika",
+      "url": ""
+    },
+    {
+      "name": "Angular",
+      "date": "2024-11",
+      "issuer": "Sololearn",
+      "url": "https://www.sololearn.com/certificates/CC-CYLIPXQA"
+    },
+    {
+      "name": "Google's Mobile Apps Development",
+      "date": "2024-08",
+      "issuer": "Google",
+      "url": "https://skillshop.exceedlms.com/student/award/tDjeGLDg3fr92fYaCayF4Frk"
+    },
+    {
+      "name": "Advance One - English Course",
+      "date": "2022-09",
+      "issuer": "CEC-EPN",
+      "url": "https://aps.cec-epn.edu.ec/diplomas/2022/LINGUISTICA/1/diploma_217010_48248-signed.pdf"
     }
+
   ],
   "skills": [
     {
       "name": "Figma",
-      "level": "Expert",
+      "level": "Intermediate",
       "keywords": [
         "Design",
         "UI"
       ]
     },
     {
-      "name": "Gitlab",
+      "name": "Adobe XD",
+      "level": "Intermediate",
+      "keywords": [
+        "Design",
+        "UI"
+      ]
+    },
+    {
+      "name": "Go",
+      "level": "Basic",
+      "keywords": [
+        "Backend",
+        "Programming"
+      ]
+    },
+    {
+      "name": "Dart",
+      "level": "Intermediate",
+      "keywords": [
+        "Frontend",
+        "Backend",
+        "Flutter"
+      ]
+    },
+    {
+      "name": "Ruby",
+      "level": "Basic",
+      "keywords": [
+        "Basic Programming",
+        "Rails framework"
+      ]
+    },
+    {
+      "name": "Linux",
+      "level": "Intermediate",
+      "keywords": [
+        "Server Programming",
+        "Linux System Administration"
+      ]
+    },
+    {
+      "name": "Kotlin",
+      "level": "Basic",
+      "keywords": [
+        "Android programming",
+        "Kotlin Multiplatform",
+        "JetPack Compose"
+      ]
+    },
+    {
+      "name": "Android",
+      "level": "Intermediate",
+      "keywords": [
+        "Android programming",
+        "Kotlin Multiplatform",
+        "JetPack Compose"
+      ]
+    },
+    {
+      "name": "Git",
       "level": "Intermediate",
       "keywords": [
         "Version Control",
@@ -252,15 +258,6 @@
       ]
     },
     {
-      "name": "Git",
-      "level": "Intermediate",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code"
-      ]
-    },
-    {
       "name": "GitHub",
       "level": "Intermediate",
       "keywords": [
@@ -271,14 +268,13 @@
       ]
     },
     {
-      "name": "Next.js",
+      "name": "MongoDB",
       "level": "Beginner",
       "keywords": [
-        "Web Development",
-        "Frontend",
-        "React Framework",
-        "SSR",
-        "Static Generation"
+        "Databases",
+        "Query Language",
+        "Data Storage",
+        "Non-relational Databases"
       ]
     },
     {
@@ -290,16 +286,64 @@
         "JavaScript Library",
         "UI"
       ]
+    },
+    {
+      "name": "Flutter",
+      "level": "Intermediate",
+      "keywords": [
+        "Mobile Development",
+        "Frontend",
+        "Dart",
+        "UI"
+      ]
+    },
+    {
+      "name": "React Native",
+      "level": "Intermediate",
+      "keywords": [
+        "Mobile Development",
+        "Frontend",
+        "UI"
+      ]
+    },
+    {
+      "name": "Java",
+      "level": "Intermediate",
+      "keywords": [
+        "System Programming",
+        "Backend",
+        "UI",
+        "Multiplatform Software"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Intermediate",
+      "keywords": [
+        "AI Programming",
+        "Backend",
+        "UI",
+        "Multiplatform Software"
+      ]
+    },
+    {
+      "name": "Astro",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "UI"
+      ]
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Native speaker"
+      "fluency": "Intermediate"
     },
     {
       "language": "Spanish",
-      "fluency": "Intermediate"
+      "fluency": "Native Speaker"
     }
   ],
   "interests": [
@@ -307,13 +351,15 @@
       "name": "Technology",
       "keywords": [
         "AI",
-        "Blockchain"
+        "Blockchain",
+        "Game Development",
+        "Embbended Software"
       ]
     }
   ],
   "references": [
     {
-      "name": "Jane Smith",
+      "name": "Tiffany Morales",
       "reference": "Reference…"
     }
   ],

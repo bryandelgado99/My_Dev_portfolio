@@ -18,6 +18,20 @@ import Kotlin from "@/icons/kotlin.astro";
 import Flutter from "@/icons/flutter.astro";
 import Figma from "@/icons/Figma.astro";
 import Gitlab from "@/icons/Gitlab.astro";
+import Python from "@/icons/Python.astro";
+import Java from "@/icons/Java.astro";
+import astro from "@/icons/Astro_logo.astro";
+import MongoDB from "@/icons/MongoDB.astro";
+import AdobeXD from "@/icons/AdobeXD.astro";
+import Canva from "@/icons/Canva.astro";
+import Illustrator from "@/icons/Illustrator.astro";
+import Photoshop from "@/icons/Photoshop.astro";
+import Dart from "@/icons/Dart.astro";
+import Linux from "@/icons/Linux.astro";
+import Ruby from "@/icons/Ruby.astro";
+import KotlinLang from "@/icons/kotlin_lang.astro";
+import Go from "@/icons/Go.astro";
+import Android from "@/icons/Android.astro";
 
 const SKILLS_ICONS: Record<string, any> = {
 	HTML,
@@ -37,22 +51,42 @@ const SKILLS_ICONS: Record<string, any> = {
 	Flutter,
 	Figma,
 	Gitlab,
+	Python,
+	Java,
+	astro,
+	MongoDB,
+	AdobeXD,
+	Canva,
+	Illustrator,
+	Photoshop,
+	Dart,
+	Ruby,
+	KotlinLang,
+	Linux,
+	Go,
+	Android
 };
 ---
-
 <Section className={Astro.props.className} title="Skills">
 	<ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li]:text-sm">
-		{
-			skills.map(({ name }) => {
-				const iconName = name === "Next.js" ? "Next" : name;
-				const Icon = SKILLS_ICONS[iconName];
-
-				return (
-					<li class="border-skin-hue/20s bg-skin-button-accent/20s borders border-solids flex items-center gap-1 rounded-md px-2 py-0.5 text-xs text-skin-muted print:border-none print:bg-transparent print:p-0 print:text-zinc-800">
-						{Icon && <Icon />} <span>{name}</span>
-					</li>
-				);
-			})
-		}
+	  {
+		skills.map(({ name }) => {
+		  // Check if the name is "astro" or "react native" and use the corresponding icon
+		  const iconName = name.toLowerCase() === "astro" ? "astro" :
+						   name.toLowerCase() === "react native" ? "React" :
+						   name === "Next.js" ? "Next" :
+						   name === "Adobe XD" ? "AdobeXD" :
+						   name === "Afiinity Photo" ? "Photoshop" : name;
+  
+		  const Icon = SKILLS_ICONS[iconName];
+  
+		  return (
+			<li class="border-skin-hue/20s bg-skin-button-accent/20s borders border-solids flex items-center gap-1 rounded-md px-2 py-0.5 text-xs text-skin-muted print:border-none print:bg-transparent print:p-0 print:text-zinc-800">
+			  {Icon && <Icon />} <span>{name}</span>
+			</li>
+		  );
+		})
+	  }
 	</ul>
-</Section>
+  </Section>
+  

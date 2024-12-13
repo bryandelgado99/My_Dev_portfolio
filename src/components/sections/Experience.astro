@@ -17,6 +17,10 @@ import Swift from "@/icons/swift.astro"
 import SwiftUI from "@/icons/swiftui.astro"
 import Kotlin from "@/icons/kotlin.astro"
 import Flutter from "@/icons/flutter.astro"
+import Canva from "@/icons/Canva.astro"
+import Illustrator from "@/icons/Illustrator.astro"
+import Photoshop from "@/icons/Photoshop.astro"
+import Joomla from "@/icons/Joomla.astro"
 
 const SKILLS_ICONS: Record<string, any> = {
   HTML,
@@ -34,6 +38,10 @@ const SKILLS_ICONS: Record<string, any> = {
   SwiftUI,
   Kotlin,
   Flutter,
+  Canva,
+	Illustrator,
+	Photoshop,
+  Joomla
 }
 ---
 <Section className={Astro.props.className} title="Experience">
@@ -120,18 +128,22 @@ const SKILLS_ICONS: Record<string, any> = {
                 </button>
 
 
-                <ul class="flex print:hidden flex-wrap gap-2" aria-label="Technologies used">
-                  {skills && skills.map(skill => {
-                    const iconName = skill === "Next.js" ? "Next" : skill
-                    const Icon = SKILLS_ICONS[iconName]
-                    return (
-                      <li class="bg-skin-button-accent/20 border-skin-hue/20 text-skin-hue print:p-0 print:bg-transparent print:text-zinc-800 flex gap-1 items-center border-solid print:border-none border rounded-md px-2 py-0.5 text-xs">
-                        {Icon && <Icon />} <span>{skill}</span>
-                      </li>
-                    )
-                  })}
-                </ul>
-)}
+            <ul class="flex print:hidden flex-wrap gap-2" aria-label="Technologies used">
+              {skills && skills.map(skill => {
+                // Check for "Affinity Photo" and use "Photoshop" icon, otherwise use the skill's corresponding icon
+                const iconName = skill === "Next.js" ? "Next" :
+                                skill === "Affinity Photo" ? "Photoshop" : skill;
+                
+                const Icon = SKILLS_ICONS[iconName];
+
+                return (
+                  <li class="bg-skin-button-accent/20 border-skin-hue/20 text-skin-hue print:p-0 print:bg-transparent print:text-zinc-800 flex gap-1 items-center border-solid print:border-none border rounded-md px-2 py-0.5 text-xs">
+                    {Icon && <Icon class="w-5 h-5" />} <span>{skill}</span>
+                  </li>
+                );
+              })}
+            </ul>
+            )}
               </div>
             </div>
         </div>
