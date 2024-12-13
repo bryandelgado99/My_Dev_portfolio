@@ -365,7 +365,7 @@
   ],
   "projects": [
     {
-      "name": "Developer Portfolio",
+      "name": "Dev Portfolio",
       "isActive": true,
       "description": "A personal portfolio website to showcase my projects and skills.",
       "image": "./projects/portfolio.jpg",
