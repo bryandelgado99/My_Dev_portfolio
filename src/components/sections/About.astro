@@ -3,10 +3,17 @@ import Section from "../Section.astro";
 
 import { basics } from "@cv";
 const { summary } = basics;
+import Download from "@/icons/Download.astro";
 ---
 
 <Section title="About">
 	<p class="mb-12">
 		{summary}
 	</p>
+	<a href="/documents/Curriculum Vitae (ENG) - Delgado Bryan.pdf" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-orange-500 trabsition-all duration-500 ease-linear">
+		<button class="flex items-center gap-x-4 py-2 px-4 text-md font-semibold transition-all duration-500 ease-linear ring-2 ring-orange-500 rounded-lg">
+			<Download/>
+			Download my CV
+		</button>
+	</a>
 </Section>
